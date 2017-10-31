@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+@import 'commons.css';
+
+@import 'jquery-ui-1.10.3.custom.css';
+
+@import 'jquery.ui.selectmenu.css';
+
+@import 'date.css';
+/*@import '../js/dataTables/demo_page.css';
+@import '../js/dataTables/demo_table.css';*/
+
+/* 框架 */
+body {
+	background: #FFFFFF;
+	font-size: 14px;
+	color: #333333;
+	font-family: Arial, "微软雅黑", "宋体";
+}
+
+.input-text-user {
+	border: #D8D8D8 1px solid;
+	border-radius: 3px;
+	width: 290px;
+	padding-left: 40px;
+	height: 32px;
+	line-height: 32px;
+	background: white url(../images/img.png) no-repeat 0px top;
+}
+
+.input-text-password {
+	border: #D8D8D8 1px solid;
+	border-radius: 3px;
+	width: 290px;
+	padding-left: 40px;
+	height: 32px;
+	line-height: 32px;
+	background: white url(../images/img.png) no-repeat 0px -50px;
+}
+
+.login-btn {
+	display: block;
+	background: url(../images/bg.png) repeat-x left top;
+	width: 330px;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	color: white;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid #215A8D;
+}
+
+
+.dataEye {
+	background: url(../images/homebg.png) no-repeat center top;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+
+/* dialog */
+
+/* login */
+.loginbox, .not-box {
+	width: 400px;
+	margin: 50px auto 100px auto;
+}
+
+.logo-a{
+	height: 150px;
+	text-align: center;
+}
+
+.loginbox-title {
+	background: #FFFFFF;
+	height: 70px;
+	border-radius: 3px 3px 0 0;
+} 
+
+.loginbox-title{
+	padding: 12px 20px;
+}
+
+h3 {
+	color: #666666;
+	padding: 0 20px;
+	line-height: 50px;
+	font-size: 16px;
+	border-bottom: 1px solid #F2F2F2;
+}
+
+.loginbox .login-content {
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	padding-bottom: 20px;
+}
+.loginbox .login-content .text {
+	width: 330px;
+	margin: 0 auto;
+	line-height: 25px;
+}
+.loginbox .login-content {
+	background: #FFFFFF;
+	height: auto !important;
+	min-height: 100px;
+	height: 100px;
+	font-size: 14px;
+}
+.loginbox .login-content .row {
+	width: 330px;
+	margin: 0 auto;
+	padding: 20px 0;
+	position: relative;
+}
+.loginbox .login-content .row .field {
+	position: absolute;
+	left: 40px;
+	top: 23px;
+	height: 35px;
+	line-height: 35px;
+	pointer-events: none;
+}
+
+
+
+.btnArea {
+	padding: 0;
+	margin: 15px auto 5px auto;
+}
+
+.row{
+	background-image: none;
+	padding: 0 15px;
+	width: 300px;
+	height: 34px;
+	line-height: 34px;
+}
+.btnArea{
+	font-size: 14px;
+	padding: 0 30px;
+}
+label{
+	color: #006DA7;
+	cursor: pointer;
+	line-height: 25px;
+}
+.login-error {
+	display: none;
+	width: 330px;
+	margin: 0 auto;
+	color: red;
+}

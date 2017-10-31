@@ -1,0 +1,144 @@
+body{
+	width: 1350px;
+	margin: 0;
+	padding: 0;
+}
+.borderImg {
+	width:  1350px;
+	height: 700px;
+	cursor: default;
+ 	background-position: 50% 0; 
+	background-repeat: no-repeat;
+	overflow: hidden;
+	display: block;
+	outline: medium none;
+	margin: 0px auto;
+	
+	position: absolute;
+	top:0px;
+	z-index: 1;
+	background-image: url('../images/chongwuba.jpg');
+}
+#hide{
+	
+	 
+}
+.backimg{
+	width: 100%;
+	height: 700px;
+}
+.corpTitle {
+	position: absolute;
+	top: 25px;
+	left: 85px;
+	text-align: left;
+	white-space: nowrap;
+	z-index: 32;
+	font-size: 20px;
+	font-family: 微软雅黑;
+	color: #07B4B7;
+}
+
+.formMiddleContent {
+	z-index: 32;
+	position: absolute;
+	top: 25px;
+	right: 100px;
+	-webkit-border-radius: 10px;
+	background-color: #B0B0B0;
+	width: 56px;
+	height: 26px;
+	text-align: center;
+}
+
+#module471FlBtn {
+	font-family: 微软雅黑;
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+	padding: 0;
+	line-height: 26px;
+}
+
+.formMiddleContent1 {
+	z-index: 32;
+	position: absolute;
+	top: 25px;
+	right: 20px;
+	-webkit-border-radius: 10px;
+	background-color: #B0B0B0;
+	width: 56px;
+	height: 26px;
+	text-align: center;
+}
+
+#module471FlBtn1 {
+	font-family: 微软雅黑;
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+	padding: 0;
+	line-height: 26px;
+}
+
+ul {
+	list-style: none;
+}
+
+.find_nav {
+	width: 1350px;
+	height: 60px;
+	background-color: #2B2B2B;
+	position: absolute;
+	top: 500px;
+	z-index: 5;
+	border-bottom: 1px solid #ddd;
+	display: -moz-box;
+	display: -webkit-box;
+	display: box;
+	border-bottom: 1px solid #ddd;
+}
+
+.find_nav_left {
+	width:100%;
+	height: 46px;
+	position: relative;
+	overflow: hidden;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	box-flex: 1;
+}
+
+.find_nav_list {
+	position: absolute;
+	left: 0;
+}
+
+.find_nav_list ul {
+	text-align: center;
+	/* position: relative; */
+	white-space: nowrap;
+	font-size: 0;
+}
+
+.find_nav_list ul li {
+	display: inline-block;
+	color: white;
+	width:60px;
+	height:60px;
+	padding: 0 100px;
+}
+
+.find_nav_list ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 60px;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+}
+.find_nav_cur a {
+	color: #48a5f4 !important;
+}

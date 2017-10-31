@@ -1,0 +1,33 @@
+.divimg{
+	width: 250px;
+	height: 250px;
+	float: left;
+	border:1px solid #fff;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.divimg img{
+	width: 200px;
+	height: 200px;
+	margin-left: 25px;
+	border-radius:5px;
+	box-shadow:3px 3px 3px;
+}
+.divimg p{
+	text-align: center;
+}
+.divimg1{
+	width: 250px;
+	height: 250px;
+	float: left;
+	border:1px solid #fff;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.divimg1 img{
+	width: 200px;
+	height: 200px;
+	margin-left: 25px;
+	border-radius:5px;
+	box-shadow:3px 3px 3px;
+}
